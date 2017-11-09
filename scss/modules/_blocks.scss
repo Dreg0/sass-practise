@@ -32,5 +32,19 @@
 
 
 .block-center{
-    text-align: center ;
+    text-align: center;
+}
+
+.block-image img{
+    width: 100%;
+}
+.block-border{
+    @include add-border(1px, #cccccc, all)
+}
+.block-primary-heaad h3{
+    @extend .block-primary;
+}
+
+.block-primary-heaad .block-content{
+    
 }

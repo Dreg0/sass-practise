@@ -13,6 +13,13 @@ h1, h2, h3, h4, h5 {
 .no-pad-top {
   padding-top: 0; }
 
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.top-inner {
+  padding: 90px 0 30px 0; }
+
 body {
   font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
   font-size: 15px;
@@ -33,6 +40,10 @@ input, textarea, button {
 img.device {
   width: 100%; }
 
+img.devise-small {
+  width: 70%;
+  margin-bottom: -70px; }
+
 /* MODULES - Individual site components */
 /*lists*/
 .list, .list-feature {
@@ -43,20 +54,92 @@ img.device {
   padding: 0;
   width: 80%; }
   .list-feature li {
-    line-height: 2.2em;
+    line-height: 3.6em;
     border-bottom: 1px solid #cccccc; }
   .list-feature li:last-child {
     border: 0; }
+  .list-feature span {
+    vertical-align: top;
+    padding-top: 9px;
+    font-size: 120%; }
+  .list-feature i {
+    margin-top: -9px;
+    margin-right: 5px; }
+
+.fa-2 {
+  font-size: 18px; }
+
+.fa-3 {
+  font-size: 24px; }
+
+.fa-4 {
+  font-size: 27px; }
+
+.fa-5 {
+  font-size: 35px; }
+
+.fa-6 {
+  font-size: 40px; }
+
+.fa-primary {
+  color: #00aff0; }
+
+.fa-border {
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px; }
+
+/*headings*/
+.heading-primary, .heading-primary-a {
+  color: #00aff0; }
+
+.heading-primary-a {
+  border-bottom: 2px solid #00aff0; }
+
+.heading-secondary, .heading-secondary-a {
+  color: #7fba00; }
+
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00; }
+
+.heading-light, .heading-light-a {
+  color: #e4eef2; }
+
+.heading-light-a {
+  border-bottom: 2px solid #e4eef2; }
+
+.heading-dark, .heading-dark-a {
+  color: #333333; }
+
+.heading-dark-a {
+  border-bottom: 2px solid #333333; }
+
+/*emphasis Text*/
+.em-primary {
+  color: #00aff0; }
+
+.em-secondary {
+  color: #7fba00; }
+
+.em-light {
+  color: #e4eef2; }
+
+.em-dark {
+  color: #333333; }
 
 /*Blocks*/
-.block, .block-primary, .block-secondary, .block-light, .block-dark {
+.block, .block-primary, .block-primary-heaad h3, .block-secondary, .block-light, .block-dark {
   padding: 15px;
   margin-bottom: 15px; }
-  .block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  .block h3, .block-primary h3, .block-primary-heaad h3 h3, .block-secondary h3, .block-light h3, .block-dark h3 {
     margin-top: 0;
     padding-top: 0; }
 
-.block-primary {
+.block-primary, .block-primary-heaad h3 {
   background: #00aff0;
   color: #ffffff; }
 
@@ -75,6 +158,22 @@ img.device {
 .block-center {
   text-align: center; }
 
+.block-image img {
+  width: 100%; }
+
+.block-border {
+  border: 1px solid #cccccc; }
+
+/*button*/
+.btn-primary {
+  background: #00aff0;
+  color: #ffffff;
+  border: 2px solid #ffffff; }
+
+.btn-primary:hover {
+  background: #24c4ff;
+  border: 2px solid #ffffff; }
+
 /*sections*/
 section {
   padding: 30px 0; }
@@ -92,7 +191,7 @@ section {
   .section-showcase h1 {
     color: #00aff0; }
 
-.section-primary {
+.section-primary, .section-primary-a, .section-primary-b {
   background: #00aff0;
   color: #ffffff; }
 
@@ -106,6 +205,32 @@ section {
 
 .section-dark {
   background: #333333;
+  color: #ffffff; }
+
+.section-primary-a {
+  border-top: 4px solid #7fba00; }
+
+.section-primary-b {
+  border-bottom: 4px solid #7fba00; }
+
+/*carousel*/
+.carousel {
+  margin-bottom: 20; }
+
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc; }
+
+/*Tabs*/
+.tab-pane {
+  margin-bottom: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px 10px; }
+
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #00aff0;
   color: #ffffff; }
 
 /*Search box*/
@@ -150,5 +275,24 @@ section {
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   background: #00aff0 !important;
   color: #fff !important; }
+
+/*footer*/
+.footer-main {
+  background: #333333;
+  color: #ffffff;
+  border-top: 5px solid #7fba00;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100; }
+  .footer-main a {
+    color: #ffffff; }
+  .footer-main a:hover {
+    text-decoration: none; }
+  .footer-main ul {
+    margin: 0;
+    padding: 0; }
+  .footer-main li {
+    line-height: 1.8em;
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */
