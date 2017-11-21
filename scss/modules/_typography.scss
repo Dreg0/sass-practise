@@ -29,6 +29,28 @@
     }
 }
 
+.list-comments {
+	margin:0;
+	padding:0;
+}
+
+.list-comments li{
+	padding:10px 0 5px 0;
+	@include add-border(1px, #cccccc, bottom);
+    overflow:auto;   
+}
+
+.list-comments li:last-of-type {
+	border:0;
+}
+
+
+
+.list-comments img{
+	width:100px;
+}
+
+
 .fa-2{
     font-size:18px;
 }

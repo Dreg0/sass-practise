@@ -8,6 +8,10 @@
         margin-top:0;
         padding-top:0;
     }
+
+    iframe{
+        width: 100%;
+    }
 }
 
 .block-primary{
@@ -41,10 +45,18 @@
 .block-border{
     @include add-border(1px, #cccccc, all)
 }
-.block-primary-heaad h3{
-    @extend .block-primary;
+.block-primary-head{
+	h3{
+		padding:15px 5px 15px 10px;
+		@include add-background($primary-color);
+		margin:0;
+		font-size:18px
+	}
+	
+	.block-content{
+		@include add-border(1px, $primary-color, all);
+		padding:10px;
+	}
 }
 
-.block-primary-heaad .block-content{
-    
-}
+

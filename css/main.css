@@ -4,86 +4,150 @@
 /*BKG color*/
 /*shwcase area*/
 /*mixins*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\000031}}
 h1, h2, h3, h4, h5 {
   margin-top: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\000035}}
 .page-header {
   margin-top: 40px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\000039}}
 .no-pad-top {
   padding-top: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\0000313}}
 .extra-pad {
   padding-top: 40px;
   padding-bottom: 40px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\0000318}}
 .top-inner {
   padding: 90px 0 30px 0; }
 
+/*Image Sizes*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\0000326}}
+.img-xsm {
+  width: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\0000327}}
+.img-sm {
+  width: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\0000328}}
+.img-lg {
+  width: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\0000329}}
+.img-xlg {
+  width: 700px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_normalize\.scss}line{font-family:\0000331}}
+.clearfix {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_base\.scss}line{font-family:\000031}}
 body {
   font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
   font-size: 15px;
   line-height: 1.7em;
   color: #666666; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_base\.scss}line{font-family:\000038}}
 a {
   color: #00aff0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_base\.scss}line{font-family:\0000312}}
 ul, li {
   list-style: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_base\.scss}line{font-family:\0000316}}
 input, textarea, button {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_base\.scss}line{font-family:\0000320}}
 img.device {
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/base\/_base\.scss}line{font-family:\0000324}}
 img.devise-small {
   width: 70%;
   margin-bottom: -70px; }
 
 /* MODULES - Individual site components */
 /*lists*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\000033}}
 .list, .list-feature {
   margin-bottom: 30px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\000037}}
 .list-feature {
   margin: 0;
   padding: 0;
   width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000313}}
   .list-feature li {
     line-height: 3.6em;
     border-bottom: 1px solid #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000318}}
   .list-feature li:last-child {
     border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000321}}
   .list-feature span {
     vertical-align: top;
     padding-top: 9px;
     font-size: 120%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000326}}
   .list-feature i {
     margin-top: -9px;
     margin-right: 5px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000332}}
+.list-comments {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000337}}
+.list-comments li {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000343}}
+.list-comments li:last-of-type {
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000349}}
+.list-comments img {
+  width: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000354}}
 .fa-2 {
   font-size: 18px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000358}}
 .fa-3 {
   font-size: 24px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000362}}
 .fa-4 {
   font-size: 27px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000366}}
 .fa-5 {
   font-size: 35px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000370}}
 .fa-6 {
   font-size: 40px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000374}}
 .fa-primary {
   color: #00aff0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000379}}
 .fa-border {
   border: 1px solid #00aff0;
   -moz-border-radius: 5px;
@@ -94,90 +158,130 @@ img.devise-small {
   margin-bottom: 10px; }
 
 /*headings*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000389}}
 .heading-primary, .heading-primary-a {
   color: #00aff0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000393}}
 .heading-primary-a {
   border-bottom: 2px solid #00aff0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\0000398}}
 .heading-secondary, .heading-secondary-a {
   color: #7fba00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003102}}
 .heading-secondary-a {
   border-bottom: 2px solid #7fba00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003108}}
 .heading-light, .heading-light-a {
   color: #e4eef2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003112}}
 .heading-light-a {
   border-bottom: 2px solid #e4eef2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003117}}
 .heading-dark, .heading-dark-a {
   color: #333333; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003121}}
 .heading-dark-a {
   border-bottom: 2px solid #333333; }
 
 /*emphasis Text*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003129}}
 .em-primary {
   color: #00aff0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003133}}
 .em-secondary {
   color: #7fba00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003137}}
 .em-light {
   color: #e4eef2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_typography\.scss}line{font-family:\00003141}}
 .em-dark {
   color: #333333; }
 
 /*Blocks*/
-.block, .block-primary, .block-primary-heaad h3, .block-secondary, .block-light, .block-dark {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\000033}}
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
   padding: 15px;
   margin-bottom: 15px; }
-  .block h3, .block-primary h3, .block-primary-heaad h3 h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\000037}}
+  .block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
     margin-top: 0;
     padding-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000312}}
+  .block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+    width: 100%; }
 
-.block-primary, .block-primary-heaad h3 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000317}}
+.block-primary {
   background: #00aff0;
   color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000322}}
 .block-secondary {
   background: #7fba00;
   color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000327}}
 .block-light {
   background: #e4eef2;
   color: #666666; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000332}}
 .block-dark {
   background: #333333;
   color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000338}}
 .block-center {
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000342}}
 .block-image img {
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000345}}
 .block-border {
   border: 1px solid #cccccc; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000349}}
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #00aff0;
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_blocks\.scss}line{font-family:\0000356}}
+.block-primary-head .block-content {
+  border: 1px solid #00aff0;
+  padding: 10px; }
+
 /*button*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_buttons\.scss}line{font-family:\000033}}
 .btn-primary {
   background: #00aff0;
   color: #ffffff;
   border: 2px solid #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_buttons\.scss}line{font-family:\000037}}
 .btn-primary:hover {
   background: #24c4ff;
   border: 2px solid #ffffff; }
 
 /*sections*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\000033}}
 section {
   padding: 30px 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\000037}}
 .section-showcase {
   height: 400px;
   background: url("../img/showcase.jpg") no-repeat top center fixed;
@@ -185,43 +289,54 @@ section {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000312}}
   .section-showcase .showcase-content {
     padding: 110px 15px;
     text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000317}}
   .section-showcase h1 {
     color: #00aff0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000322}}
 .section-primary, .section-primary-a, .section-primary-b {
   background: #00aff0;
   color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000327}}
 .section-secondary {
   background: #7fba00;
   color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000332}}
 .section-light {
   background: #e4eef2;
   color: #666666; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000337}}
 .section-dark {
   background: #333333;
   color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000342}}
 .section-primary-a {
   border-top: 4px solid #7fba00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_sections\.scss}line{font-family:\0000347}}
 .section-primary-b {
   border-bottom: 4px solid #7fba00; }
 
 /*carousel*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_components\.scss}line{font-family:\000032}}
 .carousel {
   margin-bottom: 20; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_components\.scss}line{font-family:\000037}}
 .carousel img {
   padding: 3px;
   border: 1px solid #cccccc; }
 
 /*Tabs*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_components\.scss}line{font-family:\0000314}}
 .tab-pane {
   margin-bottom: 20px;
   -moz-border-radius: 5px;
@@ -229,16 +344,35 @@ section {
   border-radius: 5px;
   padding: 20px 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_components\.scss}line{font-family:\0000320}}
 .tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
   background: #00aff0;
   color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_components\.scss}line{font-family:\0000324}}
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #7fba00;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_components\.scss}line{font-family:\0000328}}
+.tab-dark .tab-pane, .tab-dark.nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #333333;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_components\.scss}line{font-family:\0000332}}
+.tab-light .tab-pane, .tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #e4eef2;
+  color: #666666; }
+
 /*Search box*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_forms\.scss}line{font-family:\000033}}
 .search {
   width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_forms\.scss}line{font-family:\000036}}
   .search h3 {
     margin-top: 0;
     padding-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_forms\.scss}line{font-family:\0000311}}
   .search input[type="search"] {
     border: 0;
     height: 50px;
@@ -247,6 +381,7 @@ section {
     font-size: 18px;
     padding-left: 10px;
     padding-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/modules\/_forms\.scss}line{font-family:\0000321}}
   .search button {
     border: 0;
     background: none;
@@ -256,6 +391,7 @@ section {
 
 /* LAYOUTS - Page layout styles */
 /*Navbar*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_nav\.scss}line{font-family:\000034}}
 .navbar {
   width: 90%;
   margin: auto;
@@ -265,6 +401,7 @@ section {
   min-height: 60px;
   background: #fff;
   margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_nav\.scss}line{font-family:\0000313}}
   .navbar a {
     color: #00aff0 !important;
     font-size: 25px;
@@ -272,11 +409,13 @@ section {
     padding-bottom: 24px !important;
     padding-top: 20px !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_nav\.scss}line{font-family:\0000323}}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   background: #00aff0 !important;
   color: #fff !important; }
 
 /*footer*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_footer\.scss}line{font-family:\000033}}
 .footer-main {
   background: #333333;
   color: #ffffff;
@@ -284,15 +423,66 @@ section {
   min-height: 200px;
   padding: 30px 0;
   z-index: 100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_footer\.scss}line{font-family:\0000310}}
   .footer-main a {
     color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_footer\.scss}line{font-family:\0000314}}
   .footer-main a:hover {
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_footer\.scss}line{font-family:\0000318}}
   .footer-main ul {
     margin: 0;
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_footer\.scss}line{font-family:\0000323}}
   .footer-main li {
     line-height: 1.8em;
     list-style: none; }
+
+/*Blog*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_blog\.scss}line{font-family:\000033}}
+.blog-post {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_blog\.scss}line{font-family:\000038}}
+  .blog-post h2.page-header {
+    margin-top: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_blog\.scss}line{font-family:\0000313}}
+.blog-featured {
+  float: left;
+  margin-right: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_blog\.scss}line{font-family:\0000319}}
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px; }
+
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_mobile\.scss}line{font-family:\000032}}
+  .search {
+    display: inline-block;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_mobile\.scss}line{font-family:\000036}}
+  .device {
+    border-top: 1px solid #cccccc;
+    display: block;
+    margin: 20px auto 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_mobile\.scss}line{font-family:\0000311}}
+  .device-small {
+    margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_mobile\.scss}line{font-family:\0000316}}
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/tutorials\/sass-practise\/scss\/layouts\/_mobile\.scss}line{font-family:\0000320}}
+  .footer-main h4 {
+    text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
